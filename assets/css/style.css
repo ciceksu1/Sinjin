@@ -348,7 +348,7 @@ h6 {
 .navbar-mobile a,
 .navbar-mobile a:focus {
   padding: 10px 20px;
-  font-size: 15px;
+  font-size: 40px;
   color: #473d3a;
 }
 
@@ -403,7 +403,7 @@ h6 {
 #hero {
   width: 100%;
   height: 93vh;
-  background: url("../img/Cubesdark.jpg") center center;
+  background: url("../img/bg_web.png") center center;
   background-size: cover;
   position: relative;
   z-index: 1;
