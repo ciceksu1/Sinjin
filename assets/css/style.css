@@ -221,7 +221,7 @@ h6 {
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #ff6b3b;
+  background: #3D3EA6;
 }
 
 .navbar .dropdown ul {
@@ -403,7 +403,7 @@ h6 {
 #hero {
   width: 100%;
   height: 93vh;
-  background: url("../img/bg_web.png") center center;
+  background: url("../img/Cubesdark.jpg") center center;
   background-size: cover;
   position: relative;
   z-index: 1;
