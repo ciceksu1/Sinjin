@@ -342,8 +342,8 @@ h6 {
 .navbar-mobile a,
 .navbar-mobile a:focus {
   padding: 10px 20px;
-  font-size: 40px;
-  color: #473d3a;
+  font-size: 25px;
+  color: #000000;
 }
 
 .navbar-mobile a:hover,
@@ -1137,6 +1137,110 @@ section {
     width: 80%;
   }
 }
+
+
+/*--------------------------------------------------------------
+# NEWS
+--------------------------------------------------------------*/
+.news {
+  padding: 80px 0;
+  /*background: url("../img/Team/Sinan.png") no-repeat;*/
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+.news::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #f4ab0f;
+}
+
+.news .section-header {
+  margin-bottom: 40px;
+}
+
+.news .news-carousel,
+.news .news-slider {
+  overflow: hidden;
+}
+
+.news .news-item {
+  text-align: center;
+  color: #fff;
+}
+
+.news .news-item .news-img {
+  width: 100px;
+  border-radius: 50%;
+  border: 6px solid rgba(255, 255, 255, 0.15);
+  margin: 0 auto;
+}
+
+.news .news-item h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #fff;
+}
+
+.news .news-item h4 {
+  font-size: 14px;
+  color: #ddd;
+  margin: 0 0 15px 0;
+}
+
+.news .news-item .quote-icon-left,
+.news .news-item .quote-icon-right {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 26px;
+}
+
+.news .news-item .quote-icon-left {
+  display: inline-block;
+  left: -5px;
+  position: relative;
+}
+
+.news .news-item .quote-icon-right {
+  display: inline-block;
+  right: -5px;
+  position: relative;
+  top: 10px;
+}
+
+.news .news-item p {
+  font-style: italic;
+  margin: 0 auto 15px auto;
+  color: #eee;
+}
+
+.news .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.news .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: rgba(255, 255, 255, 0.5);
+  opacity: 1;
+}
+
+.news .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #ffffff;
+}
+
+@media (min-width: 992px) {
+  .news .news-item p {
+    width: 80%;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Portfolio
